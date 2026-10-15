@@ -1,0 +1,21 @@
+agent-browser Skill Wrapper
+Copyright 2026 jsshwqz
+
+This project provides an AionUi skill wrapper for the agent-browser CLI tool.
+The agent-browser binary itself is NOT redistributed here — install it separately:
+    npm install -g agent-browser
+
+Upstream Project:
+  agent-browser
+  Author: Vercel Labs
+  Repository: https://github.com/vercel-labs/agent-browser
+  License: Apache License 2.0
+  Copyright 2026 Vercel Labs
+
+This skill wrapper includes the following modifications/additions:
+  - Windows-specific configuration notes (using system Chrome via --executable-path)
+  - Integration documentation with AionUi browser skill for visual element picking
+  - Adapted skill documentation for AionUi agent consumption
+
+All original agent-browser code, documentation structure, and command references
+are derived from the upstream project under Apache-2.0 license terms.
